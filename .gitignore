@@ -1,0 +1,5 @@
+uploads
+vpcache
+vpdb
+themes/*
+!themes/_tk-master/
