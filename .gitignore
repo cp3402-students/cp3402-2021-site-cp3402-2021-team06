@@ -1,3 +1,5 @@
 uploads
 vpcache
 vpdb
+themes/*
+!themes/tk_master
