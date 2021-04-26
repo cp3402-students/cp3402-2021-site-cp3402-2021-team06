@@ -265,3 +265,16 @@ nav .input-group-btn,
 nav .form-control {
     display: inline;
 }
+
+
+
+
+/* Custom css */
+
+body {
+	background-color: white;
+}
+
+div.site-branding {
+	background-color: white;
+}
