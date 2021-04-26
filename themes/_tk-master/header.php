@@ -37,11 +37,12 @@
 					</a>
 				<?php } // end if ( ! empty( $header_image ) ) ?>
 
+				<?php // Uncomment this for a website title and description above the nav bar ?>
 
-				<div class="site-branding">
+				<!-- <div class="site-branding">
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<p class="site-description lead"><?php bloginfo( 'description' ); ?></p>
-				</div>
+				</div> -->
 
 			</div>
 		</div>
@@ -55,6 +56,7 @@
 			<div class="site-navigation-inner col-sm-12">
 				<div class="navbar navbar-default">
 					<div class="navbar-header">
+						<img href="http://192.168.33.10/wp-content/uploads/2021/04/cropped-cropped-TJC-Logo-BW-002.jpg"></img>
 						<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 							<span class="sr-only"><?php _e('Toggle navigation','_tk') ?> </span>
@@ -62,10 +64,10 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-	
+
 						<!-- Your site title as branding in the menu -->
-						<a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					</div>
+						<!-- <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+					</div> -->
 
 					<!-- The WordPress Menu goes here -->
 					<?php wp_nav_menu(
@@ -93,4 +95,3 @@
 	<div class="container">
 		<div class="row">
 			<div id="content" class="main-content-inner col-sm-12 col-md-8">
-
