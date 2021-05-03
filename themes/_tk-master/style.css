@@ -1,5 +1,5 @@
 /*
-Theme Name: _tk
+Theme Name: Group 06 Jazzy
 Theme URI: http://themekraft.com/store/_tk-free-wordpress-starter-theme-based-on-twitter-bootstrap/
 Author: ThemeKraft
 Author URI: http://themekraft.com/
@@ -277,4 +277,10 @@ body {
 
 div.site-branding {
 	background-color: white;
+}
+
+div.to-the-top {
+	color:black;
+	text-align: right;
+	background-color: black;
 }

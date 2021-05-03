@@ -26,6 +26,7 @@
 
 <header id="masthead" class="site-header" role="banner">
 <?php // substitute the class "container-fluid" below if you want a wider content area ?>
+<a id="top"></a>
 	<div class="container">
 		<div class="row">
 			<div class="site-header-inner col-sm-12">
