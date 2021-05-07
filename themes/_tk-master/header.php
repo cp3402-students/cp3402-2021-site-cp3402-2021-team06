@@ -31,6 +31,8 @@
 		<div class="row">
 			<div class="site-header-inner col-sm-12">
 
+
+
 				<?php $header_image = get_header_image();
 				if ( ! empty( $header_image ) ) { ?>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -38,12 +40,7 @@
 					</a>
 				<?php } // end if ( ! empty( $header_image ) ) ?>
 
-				<?php // Uncomment this for a website title and description above the nav bar ?>
 
-				<!-- <div class="site-branding">
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<p class="site-description lead"><?php bloginfo( 'description' ); ?></p>
-				</div> -->
 
 			</div>
 		</div>
@@ -57,7 +54,25 @@
 			<div class="site-navigation-inner col-sm-12">
 				<div class="navbar navbar-default">
 					<div class="navbar-header">
-						<img href="http://192.168.33.10/wp-content/uploads/2021/04/cropped-cropped-TJC-Logo-BW-002.jpg"></img>
+						<div class="header-image">
+
+							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+							<?php
+								// check to see if the logo exists and add it to the page
+									if ( get_theme_mod( 'your_theme_logo' ) ) : ?>
+
+										<img src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>" class="img-fluid" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
+
+											<?php // add a fallback if the logo doesn't exist
+												else : ?>
+
+													<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+
+													<?php endif; ?>
+
+												</div>
+
+
 						<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
 							<span class="sr-only"><?php _e('Toggle navigation','_tk') ?> </span>
@@ -66,9 +81,6 @@
 							<span class="icon-bar"></span>
 						</button>
 
-						<!-- Your site title as branding in the menu -->
-						<!-- <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-					</div> -->
 
 					<!-- The WordPress Menu goes here -->
 					<?php wp_nav_menu(
@@ -84,6 +96,7 @@
 							'walker' 			=> new wp_bootstrap_navwalker()
 						)
 					); ?>
+
 
 				</div><!-- .navbar -->
 			</div>
