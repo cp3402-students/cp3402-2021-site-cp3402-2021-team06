@@ -60,7 +60,7 @@
 								// check to see if the logo exists and add it to the page
 									if ( get_theme_mod( 'your_theme_logo' ) ) : ?>
 
-										<img src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
+										<img src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>" class="navbar-logo"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
 
 											<?php // add a fallback if the logo doesn't exist
 												else : ?>
