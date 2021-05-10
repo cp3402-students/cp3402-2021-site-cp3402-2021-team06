@@ -54,14 +54,13 @@
 			<div class="site-navigation-inner col-sm-12">
 				<div class="navbar navbar-default">
 					<div class="navbar-header">
-						<div class="header-image">
 
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<?php
 								// check to see if the logo exists and add it to the page
 									if ( get_theme_mod( 'your_theme_logo' ) ) : ?>
 
-										<img src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>" class="img-fluid" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
+										<img src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>"  alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
 
 											<?php // add a fallback if the logo doesn't exist
 												else : ?>
@@ -69,8 +68,8 @@
 													<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 
 													<?php endif; ?>
+												</a>
 
-												</div>
 
 
 						<!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
@@ -89,7 +88,7 @@
 							'depth'             => 2,
 							'container'         => 'nav',
 							'container_id'      => 'navbar-collapse',
-							'container_class'   => 'collapse navbar-collapse',
+							'container_class'   => 'collapse navbar-collapse alignright',
 							'menu_class' 		=> 'nav navbar-nav',
 							'fallback_cb' 		=> 'wp_bootstrap_navwalker::fallback',
 							'menu_id'			=> 'main-menu',
