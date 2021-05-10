@@ -273,7 +273,6 @@ nav .form-control {
 				color: $nav_text_colour;
 				text-align: center;
 				padding: 14px 16px;
-				text-decoration: none;
 				font-size: 20px;
 				border-color: $header_colour !important;
 				transition: transform .2s, border-color .8s, color .5s;
@@ -344,8 +343,18 @@ nav .form-control {
 	}
 
 	.to-the-top {
-		color: black;
+		color: $nav_text_colour;
+		font-family: $header_font_family;
+		text-transform: uppercase;
+		font-size: medium;
 		text-align: right;
+		text-decoration: none;
+		transition: border-color .8s, color .5s;
+		transition-timing-function: ease;
+		:hover{
+			color: $nav_text_hover_colour;
+			text-decoration: none;
+		}
 	}
 
 

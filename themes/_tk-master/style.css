@@ -302,7 +302,6 @@ nav .form-control {
   color: #d6a05c;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 20px;
   border-color: #14283d !important;
   transition: transform 0.2s, border-color 0.8s, color 0.5s;
@@ -368,8 +367,18 @@ div.site-branding {
 }
 
 .to-the-top {
-  color: black;
+  color: #d6a05c;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  font-size: medium;
   text-align: right;
+  text-decoration: none;
+  transition: border-color 0.8s, color 0.5s;
+  transition-timing-function: ease;
+}
+.to-the-top :hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
