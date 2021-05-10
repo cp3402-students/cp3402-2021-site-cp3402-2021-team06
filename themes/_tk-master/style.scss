@@ -264,13 +264,7 @@ nav .form-control {
 	border-color: $header_colour;
 	background-color: $header_colour;
 	max-width: 60%;
-	margin-left: auto;
-	margin-right: auto;
 	font-family: $header_font_family;
-	.navbar-header{
-		margin-left: auto;
-		margin-right: auto;
-	}
 	.navbar-nav{
 
 		li{
@@ -323,9 +317,15 @@ nav .form-control {
 .site-navigation-inner {
 	background-color: $header_colour;
 	box-shadow: 0 10px 5px rgba(0, 0, 0, 0.17);
+	display: flex;
+	justify-content: center;
 
 }
 
+
+.navbar-logo {
+	width: 7em;
+}
 .page-title{
 	font-size: 4em;
 	text-align: center;

@@ -295,13 +295,7 @@ nav .form-control {
   border-color: #14283d;
   background-color: #14283d;
   max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Roboto Condensed", sans-serif;
-}
-.navbar-default .navbar-header {
-  margin-left: auto;
-  margin-right: auto;
 }
 .navbar-default .navbar-nav li a {
   float: left;
@@ -348,6 +342,12 @@ nav .form-control {
 .site-navigation-inner {
   background-color: #14283d;
   box-shadow: 0 10px 5px rgba(0, 0, 0, 0.17);
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-logo {
+  width: 7em;
 }
 
 .page-title {
