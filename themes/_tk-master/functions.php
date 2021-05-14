@@ -177,33 +177,13 @@ function woocommerce_support() {
 	add_theme_support( 'woocommerce' );
 }
 
-function get_post_id_by_slug( $slug, $post_type = "post" ) {
-    $query = new WP_Query(
-        array(
-            'name'   => $slug,
-            'post_type'   => $post_type,
-            'numberposts' => 1,
-            'fields'      => 'ids',
-        ) );
-    $posts = $query->get_posts();
-    return array_shift( $posts );
-}
-
-function get_ID_by_slug($page_slug) {
-  $page = get_page_by_path($page_slug);
-  if ($page) {
-    return $page->ID;
-  } else {
-    return null;
-  }
-}
 
 /* Custom functions */
 
 /**
 * Create Logo Setting and Upload Control
 */
-function your_theme_new_customizer_settings($wp_customize) {
+function logo_customizer_setting($wp_customize) {
 // add a setting for the site logo
 $wp_customize->add_setting('your_theme_logo');
 // Add a control to upload the logo
@@ -214,4 +194,4 @@ array(
 'settings' => 'your_theme_logo',
 ) ) );
 }
-add_action('customize_register', 'your_theme_new_customizer_settings');
+add_action('customize_register', 'logo_customizer_setting');
