@@ -37,17 +37,15 @@
 					); ?>
 				</th>
 				<th class="alignright">
-					<!-- Social links for footer -->
 
-
-
+					<?php // Social links for the footer ?>
 					<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
 
-				
+
 
 				</th>
 			</table>
-
+			<?php // To the top link ?>
 			<a class="to-the-top alignright" href="#top">
 						<span class="to-the-top-long">
 							To the top <span class="arrow" aria-hidden="true">↑</span>						</span><!-- .to-the-top-long -->
