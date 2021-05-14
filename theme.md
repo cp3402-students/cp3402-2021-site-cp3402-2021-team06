@@ -25,7 +25,7 @@ Under **Site Identity** you will find options for the site title, tagline, **log
 
 There are 2 different locations menus can be used in this theme. One in the navigation bar and the other in the footer. In order to select which menu to use navigate into the *Menus* section under *Appearance* in the WordPress dashboard.
 
-![Location of menu settings](/images/menuimage.png)
+![Location of menu settings](/images/menuimage.PNG)
 
 - **Header bottom menu** is the menu used in the navbar.
 - **Footer menu** is the menu used for the footer. *(Note there will always be a "go to top" part and social icons, unless changed in the plugins)*
