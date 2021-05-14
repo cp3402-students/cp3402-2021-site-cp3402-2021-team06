@@ -4,7 +4,7 @@
 
 ## Description
 
-The Jazz Theme Development Project is part of the staging environment and is used to develop the theme/plugins before being pushed to the production branch. In the following documentation you will find the necessary information in order to get started.
+The Jazz Theme Development Project is a GitHub repository made for the *"Team06 Jazzy Theme"*, which focuses on creating a fully fledged theme with plugins and customizing options available for the user. In the following Documentation you will find all you need to get started!
 
 ---
 
@@ -22,6 +22,6 @@ A WordPress site with admin access.
 
 ### Theme
 
-[]
+[Theme](theme.md)
 
 ---
