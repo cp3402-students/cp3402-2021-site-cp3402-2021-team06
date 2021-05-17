@@ -51,10 +51,10 @@ This code searches to see if the plugin is active and has icons. If you no longe
 
 ---
 ### Styling with SASS
-The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).  
+The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).  
 
-code is included in the project so if you'd like to edit the CSS that way it is possible, otherwise you can just edit the CSS directly. A lot of the prominent features which are seen throughout the website will be found at the bottom of the CSS.
 ### Styling with CSS directly
+The styling can also be modified by editing the CSS code in the file 'styling.css' directly. A lot of the prominent features which are seen throughout the website will be found at the bottom of the CSS.
 
 
 Likewise for the functions and other WordPress features we kept the _tk functionality relatively the same and added our theme specific functionality to the bottom of the documents for easier access.
