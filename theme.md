@@ -5,7 +5,9 @@
 
 ---
 
-This Jazzy theme takes much inspiration from other musical websites and designs and adds them all into one. Creating a more Jazz orientated theme. This theme has plugin implementation for social icons, an easy to create front page and customizer options for the default WordPress customizer.
+The elements of the 'Jazzy theme' were designed to reflect the classical and sophisticated feelings largely associated with the Jazz music scene. The theme takes much inspiration from the design of multiple popular musical websites. 
+
+This theme includes plugins that are implementated to manage social media icons, ?? an easy to create front page ?? and append additional customizer options to the default WordPress customizer.
 
 ## Customizer Options
 
@@ -22,12 +24,11 @@ Under **Site Identity** you will find options for the site title, tagline, **log
 ## Menu Options
 
 ---
-
-There are 2 different locations menus can be used in this theme. One in the navigation bar and the other in the footer. In order to select which menu to use navigate into the *Menus* section under *Appearance* in the WordPress dashboard.
+There are 2 possible locations for the website's menu, the header and the footer. The theme currently only has the menu enabled in the header. Modifications to the locations and contents of the menu can be made by navigating into the *Menus* section under *Appearance* in the WordPress dashboard.
 
 ![Location of menu settings](/images/menuimage.PNG)
 
-- **Header bottom menu** is the menu used in the navbar.
+- **Header bottom menu** is the menu used in the header.
 - **Footer menu** is the menu used for the footer. *(Note there will always be a "go to top" part and social icons, unless changed in the plugins)*
 
 ## Social Icons
