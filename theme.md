@@ -48,9 +48,10 @@ This code searches to see if the plugin is active and has icons. If you no longe
 ```
 
 ## Styling & Functions
-### Styling
-The prominent styling features that can be seen throughout the website can be found and modified at the bottom of the 'style.css' and/or 'style.scss' files.
 ---
+### Styling
+---
+The prominent styling features that can be seen throughout the website can be found and modified at the bottom of the 'style.css' and/or 'style.scss' files.
 #### Styling with SASS
 The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).
 
