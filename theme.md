@@ -53,7 +53,7 @@ This code searches to see if the plugin is active and has icons. If you no longe
 ---
 The prominent styling features that can be seen throughout the website can be found and modified at the bottom of the 'style.css' and/or 'style.scss' files.
 #### Styling with SASS
-The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).
+The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the 'style.css' file in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS for website development can be found on the language's [official website](https://sass-lang.com/documentation).
 
 Relevant files:
 * style.scss - Style sheet that contains Sass language, used to compile styles.css.
@@ -64,12 +64,11 @@ Relevant files:
 The styling can also be modified by editing the CSS code in the file 'styling.css' directly.
 
 ### Functions
-The functions derived from the starter theme '_tk'_ were lightly modified and any additional content added for our themes specific functionality can be found at the bottom of the documents. *insert list of relevant files and what *
+The functions derived from the starter theme '_tk'_ were lightly modified and any additional content added for our themes specific functionality can be found at the bottom of the documents. *insert list of relevant files and what modification can be made through them*
 
 ## Other  
 
 ---
-
-Throughout all of the header, footer, and page php there are comments there describing what each element does. Do not edit unless you know what you are doing. But if you do know, we kept it pretty self explanatory.
+Descriptive comments can be found throughout the theme's specific function files (header.php, footer.php and page.php) and styling file (style.scss). These comments are useful for understanding how certain functions or lines of code affect the website. We advise to not edit these files until you understand how each component is implemented.
 
 [<-- Back to README](README.md)
