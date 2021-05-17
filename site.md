@@ -21,7 +21,7 @@ These are described below, they are however pretty straightforward as it is a lo
 ##How to add events to the site.
 Events have been done with a plug in.
 1.	To add an event to the jazz club, open up WordPress and navigate to the plugin. Easy to spot, its just labelled as Events, click add new event.
- ![image](https://user-images.githubusercontent.com/14228363/118430796-37e84880-b718-11eb-9b76-ba85b43e053c.png)
+![image](https://user-images.githubusercontent.com/14228363/118430796-37e84880-b718-11eb-9b76-ba85b43e053c.png)
 
 
 2.	Now label your new event, add a description, pictures and even a slideshow of pictures if desired. Below is an example of what you will see.
