@@ -13,15 +13,21 @@ The Jazz Theme Development Project is a GitHub repository made for the *"Team06 
 A WordPress site with admin access.
 
 ---
+## Documentation
 
-### Deployment
+### Deployment documentation
 
 [Deployment and Development](DEPLOYMENT.md)
 
 ---
 
-### Theme
+### Theme documentation
 
 [Theme](theme.md)
+
+---
+### Site development
+
+[Site Development](site.md)
 
 ---
