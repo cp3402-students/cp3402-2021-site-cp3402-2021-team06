@@ -40,8 +40,7 @@ For the social icons the plugin [Easy Social Icons](https://en-au.wordpress.org/
 <?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
 ```
 
-This code searches to see if the plugin is active and has icons. If you no longer desire icons or want to change them you can change and/or remove them in the plugin settings found on the WordPress dashboard.
-*Easy Social Icons* also has shortcode which can be used on pages!
+This code searches to see if the plugin is active and has icons. If you no longer desire icons or want to change them, you can find options for modifying and removing icons in the plugin's settings which can be navigated to from the WordPress admin dashboard. *Easy Social Icons* elements can also be implemented on pages with the following shortcode:
 
 ```
 [cn-social-icon]
