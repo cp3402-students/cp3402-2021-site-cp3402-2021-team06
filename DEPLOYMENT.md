@@ -2,7 +2,7 @@
 # Development and Deployment Workflow
 ## Initial Setup
 ### 1. Setup a development tracking and planning system
-Our Dev. & Dep. workflow involved tracking and planning any project modifications and new editions. We utilized the collaborative list-making application 'Trello' to create and maintain a 'Trello board' of in-progress, future and completed goals. The current Trello board can be viewed [https://trello.com/b/ZWsBaja8/group-06](here). Visit Trello's [https://trello.com/guide/trello-101](Trello 101 Guide) for more infomation about creating a similar tracking and planning environment.
+Our Dev. & Dep. workflow involved tracking and planning any project modifications and new editions. We utilized the collaborative list-making application 'Trello' to create and maintain a 'Trello board' of in-progress, future and completed goals. The current Trello board can be viewed [https://trello.com/b/ZWsBaja8/group-06](here) . Visit Trello's [https://trello.com/guide/trello-101](Trello 101 Guide) for more infomation about creating a similar tracking and planning environment.
 
 2. Set up staging and production Wordpress servers/websites.  
 Current servers created using DigitalOcean ubuntu servers with LAMP stacks installed.  
