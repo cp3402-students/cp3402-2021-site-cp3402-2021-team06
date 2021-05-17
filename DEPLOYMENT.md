@@ -2,12 +2,12 @@
 # Development and Deployment Workflow
 ## Initial Setup
 ### 1. Setup a development tracking and planning system
-Our Dev. & Dep. workflow involved tracking and planning any project modifications and new editions. We utilized the collaborative list-making application 'Trello' to create and maintain a 'Trello board' of in-progress, future and completed goals. The current Trello board can be viewed [https://www.trello.com/b/ZWsBaja8/group-06](here) . Visit Trello's [https://www.trello.com/guide/trello-101](Trello 101 Guide) for more infomation about creating a similar tracking and planning environment.
+Our Dev. & Dep. workflow involved tracking and planning any project modifications and new editions. We utilized the collaborative list-making application 'Trello' to create and maintain a 'Trello board' of in-progress, future and completed goals. The current Trello board can be viewed [here](https://www.trello.com/b/ZWsBaja8/group-06) . Visit Trello's [Trello 101 Guide](https://www.trello.com/guide/trello-101) for more infomation about creating a similar tracking and planning environment.
 
 ### 2. Set up staging and production Wordpress servers/websites.  
 Current servers created using DigitalOcean ubuntu servers with LAMP stacks installed.  
 Staging: https://team06jazz.xys  
-Production: https://team06jazz.club  
+Production: https://team06jazz.club here
 
 ### 3. Create a team github repository of JUST the wp-content for version control during theme development.  
 Current repository can be found at https://github.com/cp3402-students/cp3402-2021-site-team06
