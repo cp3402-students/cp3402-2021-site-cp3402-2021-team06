@@ -35,7 +35,7 @@ There are 2 possible locations for the website's menu, the header and the footer
 
 ---
 
-For the social icons the plugin [Easy Social Icons](https://en-au.wordpress.org/plugins/easy-social-icons/) was used. This allowed for a wide variety of icons to be used easily and quickly. In the *footer.php* you will find the following code.
+The plugin, [Easy Social Icons](https://en-au.wordpress.org/plugins/easy-social-icons/) was used to implement social media icons. This allowed for a wide variety of icons to be implemented easily and quickly. In the *footer.php* you will find the following code.
 
 ```
 <?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
