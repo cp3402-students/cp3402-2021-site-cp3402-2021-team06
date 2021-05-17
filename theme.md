@@ -55,9 +55,9 @@ The prominent styling features that can be seen throughout the website can be fo
 The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).
 
 Relevant files:
-* style.scss - Style sheet that contains Sass language, used to compile styles.css
-* colours.scss - Contains the modifiable colour variables
-* text.scss - Contains the modifiable font variables
+* style.scss - Style sheet that contains Sass language, used to compile styles.css.
+* colours.scss - Contains the modifiable colour variables.
+* text.scss - Contains the modifiable font variables.
 
 #### Styling with CSS directly
 The styling can also be modified by editing the CSS code in the file 'styling.css' directly.
