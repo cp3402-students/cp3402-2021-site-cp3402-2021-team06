@@ -21,6 +21,7 @@ These are described below, they are however pretty straightforward as it is a lo
 ##How to add events to the site.
 Events have been done with a plug in.
 1.	To add an event to the jazz club, open up WordPress and navigate to the plugin. Easy to spot, its just labelled as Events, click add new event.
+
 ![image](https://user-images.githubusercontent.com/14228363/118430796-37e84880-b718-11eb-9b76-ba85b43e053c.png)
 
 
@@ -46,7 +47,9 @@ Events have been done with a plug in.
 
 ## How to change the home page media slider
 This has been done with MetaSlider
+
 ![image](https://user-images.githubusercontent.com/14228363/118356369-533c4200-b5b8-11eb-9e27-962757ee0501.png)
+
 
 This allows the process to be much easier. Simply open the plugin, this will bring you to the below screen.
 ![image](https://user-images.githubusercontent.com/14228363/118356410-7c5cd280-b5b8-11eb-9855-3ace9dfadffd.png)
@@ -55,6 +58,7 @@ This allows the process to be much easier. Simply open the plugin, this will bri
 2. If you want to change a select photo, simply click on the image in the slide, highlighted below in green. This will enable you to select a new image.
 
 ![image](https://user-images.githubusercontent.com/14228363/118356442-8f6fa280-b5b8-11eb-864c-ba269893f06d.png)
+
 
 3. If you want to add a new photo/s, click add slide (shown above highlighted in red) and select your image. Feel free to select as many images as you want in this add slide screen, the plugin will add them all at the same time as separate slides.
 4. Add any captions you want for the photos in the area field for each photo.
