@@ -298,11 +298,10 @@ nav .form-control {
   font-family: "Roboto Condensed", sans-serif;
 }
 .navbar-default .navbar-nav li a {
-  float: left;
   color: #d6a05c;
   text-align: center;
   padding: 14px 16px;
-  font-size: 20px;
+  font-size: 2em;
   border-color: #14283d !important;
   transition: transform 0.2s, border-color 0.8s, color 0.5s;
   transition-timing-function: ease;
@@ -346,9 +345,13 @@ nav .form-control {
   justify-content: center;
 }
 
+code {
+  background-color: #1a3550;
+}
+
 .navbar-logo {
-  height: 100px;
-  width: 100px;
+  width: 10%;
+  justify-content: center;
 }
 
 .page-title {

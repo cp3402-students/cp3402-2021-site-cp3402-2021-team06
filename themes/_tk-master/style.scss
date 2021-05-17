@@ -266,14 +266,12 @@ nav .form-control {
 	max-width: 90%;
 	font-family: $header_font_family;
 	.navbar-nav{
-
 		li{
 			a{
-				float: left;
 				color: $nav_text_colour;
 				text-align: center;
 				padding: 14px 16px;
-				font-size: 20px;
+				font-size: 2em;
 				border-color: $header_colour !important;
 				transition: transform .2s, border-color .8s, color .5s;
 				transition-timing-function: ease;
@@ -322,10 +320,14 @@ nav .form-control {
 
 }
 
+code{
+	background-color: $body_colour;
+}
+
 
 .navbar-logo {
-	height: 100px;
-	width: 100px;
+	width:10%;
+	justify-content: center;
 }
 .page-title{
 	font-size: 4em;
