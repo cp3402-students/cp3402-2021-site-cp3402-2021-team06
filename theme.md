@@ -48,16 +48,22 @@ This code searches to see if the plugin is active and has icons. If you no longe
 ```
 
 ## Styling & Functions
-
+### Styling
+The prominent styling features that can be seen throughout the website can be found and modified at the bottom of the 'style.css' and/or 'style.scss' files.
 ---
-### Styling with SASS
-The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).  
+#### Styling with SASS
+The style sheet, 'style.css' was generated from the 'style.scss' file using the preprocessor scripting language **SASS**. Generating the style.css in this manner allowed us to create variables for the websites various style constants such as colours and fonts. With these variables in place, modifications were streamlined and, for example, changes to colours that are used by the website's various components can be made through a single line of code. More infomation on how to utilize SASS can be found [here](https://sass-lang.com/documentation).
 
-### Styling with CSS directly
-The styling can also be modified by editing the CSS code in the file 'styling.css' directly. A lot of the prominent features which are seen throughout the website will be found at the bottom of the CSS.
+Relevant files:
+* style.scss - Style sheet that contains Sass language, used to compile styles.css
+* colours.scss - Contains the modifiable colour variables
+* text.scss - Contains the modifiable font variables
 
+#### Styling with CSS directly
+The styling can also be modified by editing the CSS code in the file 'styling.css' directly.
 
-Likewise for the functions and other WordPress features we kept the _tk functionality relatively the same and added our theme specific functionality to the bottom of the documents for easier access.
+### Functions
+The functions derived from the starter theme '_tk'_ were lightly modified and any additional content added for our themes specific functionality can be found at the bottom of the documents. *insert list of relevant files and what *
 
 ## Other  
 
