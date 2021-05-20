@@ -2,5 +2,6 @@ uploads
 vpcache
 vpdb
 languages
+upgrade
 themes/*
 !themes/_tk-master/
