@@ -28,7 +28,7 @@ Production - https://team06jazz.club
 ### Local Environment
 Development will start off in a local environment, making & testing any changes within your own virtual machine or dev environment of choice. Since our web servers are LAMP stacks running on Ubuntu, something similar would be recommended. Team members have currently been using a Cognac box with Vagrant for local development.
 
-:+1: local environment setup
+[Local Environment Set Up](LOCALDEVELOPMENT.md)
 
 Locate your wp-content folder and clone the contents of the github repository, creating your own branch for development.
 ```
