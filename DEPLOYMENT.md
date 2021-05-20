@@ -1,5 +1,6 @@
 [<-- Back to README](README.md)
 # Development and Deployment Workflow
+
 ## Project Management
 ### Trello
 Our Dev. & Dep. workflow involved tracking and planning any project modifications or new additions. To do so, we utilized the collaborative list-making application 'Trello' to create and maintain a board of in-progress, future and completed goals as well as meeting notes and any additional information used.  
