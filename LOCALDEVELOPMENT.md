@@ -10,7 +10,7 @@
 ---
 
 ## 2. Set Up Cognac Box
-1. Open *Cmder* or other relevant Git enabled console and navigate to desired project directory.
+1. Open *Cmder* or other relevant Git enabled console and navigate to your desired project directory.
 2. Run the command `git clone https://github.com/reddingwebpro/cognacbox.git my-project` replacing *"my project"* with your desired folder name.
 3. `cd my-project`
 4. Open your WordPress download and move all of **wordpress** into the **public** folder **except for wp-content** replacing any existing files.
@@ -33,5 +33,8 @@ git clone https://github.com/cp3402-students/cp3402-2021-site-team06.git wp-cont
 
 ---
 
-## 4. Development
+## 4. Making Changes
 1. Make a change to the theme using your prefered editor. If using **ATOM** you will be able to push and make branches directly from the application.
+2. Follow the next steps on [deployment](DEPLOYMENT.md) for the GitHub branching steps.
+
+Local changes can be found at http://192.168.33.10/
