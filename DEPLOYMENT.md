@@ -1,20 +1,34 @@
 [<-- Back to README](README.md)
 # Development and Deployment Workflow
-## Initial Setup
-### 1. Setup a development tracking and planning system
-Our Dev. & Dep. workflow involved tracking and planning any project modifications and new editions. We utilized the collaborative list-making application 'Trello' to create and maintain a 'Trello board' of in-progress, future and completed goals. The current Trello board can be viewed [here](https://www.trello.com/b/ZWsBaja8/group-06) . Visit Trello's [Trello 101 Guide](https://www.trello.com/guide/trello-101) for more infomation about creating a similar tracking and planning environment.
 
-### 2. Set up staging and production Wordpress servers/websites.  
-Current servers created using DigitalOcean ubuntu servers with LAMP stacks installed.  
-Staging: https://team06jazz.xys  
-Production: https://team06jazz.club here
+## Project Management
+### Trello
+Our Dev. & Dep. workflow involved tracking and planning any project modifications or new additions. To do so, we utilized the collaborative list-making application 'Trello' to create and maintain a board of in-progress, future and completed goals as well as meeting notes and any additional information used.  
 
-### 3. Create a team github repository of JUST the wp-content for version control during theme development.  
-Current repository can be found at https://github.com/cp3402-students/cp3402-2021-site-team06
+:exclamation: Our current Trello board can be viewed [https://trello.com/b/ZWsBaja8/group-06](here).  
 
-## Dev. Cycle
-### 1 ~ Local Environment
-Development will start off in a local environment, making & testing any changes within your own virtual machine or dev environment of choice. Since our web servers are LAMP stacks running on Ubuntu so something similar would be recommended.  
+:question: Visit Trello's [https://trello.com/guide/trello-101](Trello 101 Guide) for more information about creating a similar tracking and planning environment.
+
+### Github
+To maintain version control and tracking of developmental changes to the site theme, a team github repository has been initialized.
+This repository contains only files from the WordPress "wp-content" folder
+
+:exclamation: Our current Github repository can be viewed [https://github.com/cp3402-students/cp3402-2021-site-team06](here).
+
+### Website servers
+To host staging and productions websites, the service DigitalOcean has been used.  
+Using this service, LAMP stacks have been installed in a Ubuntu environment to accurately represent a professional.  
+The staging server always pulls the most up to date content from the team repository to be viewed and accepted by Townsville Jazz Club before being manually pulled to the production server.
+
+Websites hosted on these servers can be found at the following addresses:
+Staging - https://team06jazz.xys  
+Production - https://team06jazz.club  
+
+## Development Cycle
+### Local Environment
+Development will start off in a local environment, making & testing any changes within your own virtual machine or dev environment of choice. Since our web servers are LAMP stacks running on Ubuntu, something similar would be recommended. Team members have currently been using a Cognac box with Vagrant for local development.
+
+<local environment setup>
 
 Locate your wp-content folder and clone the contents of the github repository, creating your own branch for development.
 ```
@@ -26,8 +40,12 @@ git push --set-upstream origin <branch-name>
 ```
 Once your work is ready to be deployed create a pull request. your work will then be tested before being pulled into the main branch.
 
-### 2 ~ Integrated Testing
-??automated testing performed??
+### Integrated Testing
+To test css code, csslint has been installed locally and on the staging server.  
+This provides feedback of potential errors or non-standard coding.  
+The following command can be run on the staging site as is, or on your local machine with suitable substitute for the path    
+```csslint /var/www/html/wpontent/themes/_tk-master/style.css
+```
 
 ### 3 ~ Staging Environment
 Once changes have been pushed into the main branch, the staging server will automatically pull the latest changes using github webhooks.  
