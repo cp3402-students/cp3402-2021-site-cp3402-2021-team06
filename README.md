@@ -26,8 +26,13 @@ A WordPress site with admin access.
 [Theme](theme.md)
 
 ---
+
 ### Site development
 
 [Site Development](site.md)
 
 ---
+
+### Local Development
+
+[Local Development](LOCALDEVELOPMENT.md)
