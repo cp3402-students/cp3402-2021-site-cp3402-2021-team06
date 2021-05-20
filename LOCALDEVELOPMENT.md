@@ -5,7 +5,7 @@
 3. [Git](https://git-scm.com/)
 4. [WordPress](https://en-au.wordpress.org/download/)
 5. *(Not required)* [Cmder for windows](https://cmder.net/)
-6. *(Not required)* [Git editor ATOM for ease of use](https://atom.io/)
+6. *(Not required)* [Text editor ATOM for ease of use](https://atom.io/)
 
 ---
 
