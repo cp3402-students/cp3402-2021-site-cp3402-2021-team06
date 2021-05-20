@@ -52,7 +52,6 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="site-navigation-inner col-sm-12">
-
 				<div class="navbar navbar-default">
 					<div class="navbar-header">
 
@@ -102,8 +101,6 @@
 
 				</div><!-- .navbar -->
 			</div>
-<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
-
 		</div>
 	</div><!-- .container -->
 </nav><!-- .site-navigation -->
