@@ -19,7 +19,7 @@ To host staging and productions websites, the service DigitalOcean has been used
 Using this service, LAMP stacks have been installed in a Ubuntu environment to accurately represent a professional.  
 The staging server always pulls the most up to date content from the team repository to be viewed and accepted by Townsville Jazz Club before being manually pulled to the production server.
 
-Websites hosted on these servers can be found at the following addresses:
+Websites hosted on these servers can be found at the following addresses:  
 Staging - https://team06jazz.xys  
 Production - https://team06jazz.club  
 
@@ -27,7 +27,7 @@ Production - https://team06jazz.club
 ### Local Environment
 Development will start off in a local environment, making & testing any changes within your own virtual machine or dev environment of choice. Since our web servers are LAMP stacks running on Ubuntu, something similar would be recommended. Team members have currently been using a Cognac box with Vagrant for local development.
 
-<local environment setup>
+:+1: local environment setup
 
 Locate your wp-content folder and clone the contents of the github repository, creating your own branch for development.
 ```
@@ -46,11 +46,11 @@ The following command can be run on the staging site as is, or on your local mac
 ```csslint /var/www/html/wpontent/themes/_tk-master/style.css
 ```
 
-### 3 ~ Staging Environment
+### Staging Environment
 Once changes have been pushed into the main branch, the staging server will automatically pull the latest changes using github webhooks.  
 This site presents an opportunity for clients and team members to discuss changes before they are made public.
 
-### 4 ~ Production Environment
+### Production Environment
 After changes on the staging site have been accepted by the client, the server admin must ssh into the production server using their provided details to pull the latest changes live.
 
 [<-- Back to README](README.md)
