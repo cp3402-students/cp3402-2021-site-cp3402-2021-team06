@@ -55,6 +55,8 @@
 				<div class="navbar navbar-default">
 					<div class="navbar-header">
 
+							<?php // Get the logo that is set in the customizer and place it in the navbar ?>
+
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 							<?php
 								// check to see if the logo exists and add it to the page
