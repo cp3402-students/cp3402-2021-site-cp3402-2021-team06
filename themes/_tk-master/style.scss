@@ -323,6 +323,13 @@ nav .form-control {
 code{
 	background-color: $body_colour;
 }
+.menu-item:hover .dropdown-menu{
+	display: block !important;
+	background-color: $body_colour;
+}
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+	background-image: linear-gradient(to bottom, $body_colour 0%, $body_colour 100%);
+}
 
 
 .navbar-logo {

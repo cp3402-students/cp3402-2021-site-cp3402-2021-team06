@@ -1,13 +1,13 @@
 /*
 Theme Name: Group 06 Jazzy
-Theme URI: https://team06jazz.club/
+Theme URI: http://themekraft.com/store/_tk-free-wordpress-starter-theme-based-on-twitter-bootstrap/
 Author: ThemeKraft
-Author URI: https://github.com/cp3402-students/cp3402-2021-site-team06
-Description: Theme designed for Jazz oriented businesses.
-Version: 1.1.20
+Author URI: http://themekraft.com/
+Description: Hi, I am the ultra minimal starter theme _tk, ready for your next awesome WordPress project! I am the most seamless and minimalistic integration of Twitter Bootstrap Framework into the _s starter theme from Automattic, the guys behind WordPress. You can find me on GitHub. Fork me! I'm waiting for you ;)
+Version: 1.1.10
 License: GNU General Public License v3.0 /
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Tags: gray, light, two-columns, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, sticky-post,  theme-options, threaded-comments, translation-ready
+Tags: gray, light, two-columns, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, flexible-header, sticky-post,  theme-options, threaded-comments, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -347,6 +347,15 @@ nav .form-control {
 
 code {
   background-color: #1a3550;
+}
+
+.menu-item:hover .dropdown-menu {
+  display: block !important;
+  background-color: #1a3550;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus {
+  background-image: linear-gradient(to bottom, #1a3550 0%, #1a3550 100%);
 }
 
 .navbar-logo {
