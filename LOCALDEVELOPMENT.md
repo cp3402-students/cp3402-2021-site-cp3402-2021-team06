@@ -1,3 +1,5 @@
+[<-- Back to deployment](DEPLOYMENT.md)
+
 # Local Development
 ## 1. Prerequisites
 1. [Vagrant](https://www.vagrantup.com/)
@@ -38,3 +40,5 @@ git clone https://github.com/cp3402-students/cp3402-2021-site-team06.git wp-cont
 2. Follow the next steps on [deployment](DEPLOYMENT.md) for the GitHub branching steps.
 
 Local changes can be found at http://192.168.33.10/
+
+[<-- Back to deployment](DEPLOYMENT.md)
