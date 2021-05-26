@@ -101,6 +101,7 @@
 
 				</div><!-- .navbar -->
 			</div>
+			<?php if ( function_exists('cn_social_icon') ) echo cn_social_icon(); ?>
 		</div>
 	</div><!-- .container -->
 </nav><!-- .site-navigation -->
