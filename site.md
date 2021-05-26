@@ -18,7 +18,8 @@ If any info or content is to be added, for example updated membership informatio
 In regard to image slides and events, plugins were used. MetaSlider and Events Calendar WD have their own plugin backends to work through. 
 These are described below, they are however pretty straightforward as it is a lot of just filling in information, the plug in does the rest. 
 
-##How to add events to the site.
+
+## How to add events to the site.
 Events have been done with a plug in.
 1.	To add an event to the jazz club, open up WordPress and navigate to the plugin. Easy to spot, its just labelled as Events, click add new event.
 
@@ -40,9 +41,12 @@ Events have been done with a plug in.
 5.	Under Venue, feel free to select Fish Inn, as the location and details have already been filled out beforehand. If a new venue is needed, select add new event from the dropdown and fill out the forms – address is obviously the most important.
 6.	Tick Townsville jazz club 
 7.	Edit when you want this event to go live to the public by clicking the third edit down. Otherwise, click publish. You are done!
+
 ![image](https://user-images.githubusercontent.com/14228363/118430816-43d40a80-b718-11eb-806e-e8ad6facf93c.png)
 
  
+## Change content information on pages.
+To change the content found on any page in the future, ie - information found on the front page or contact page like phone numbers, simply edit the page directly through the wordpress. Content was put directly onto pages not through posts and categories as it was less convoluted for future modifications.
 
 
 ## How to change the home page media slider
@@ -72,6 +76,8 @@ Again, this has been done with MetaSlider plugin.
 3.	Add your photos and captions as desired.
 4.	Navigate to the Archive page - edit it
 5.	Click the plugin icon - select the named slideshow you created and place it where you want it on the page.
+
+
 
 
 
